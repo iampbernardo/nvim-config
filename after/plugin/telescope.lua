@@ -1,4 +1,4 @@
-loPlugcal builtin = require('telescope.builtin')
+local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
 vim.keymap.set('n', '<C-P>', builtin.git_files, {})
 vim.keymap.set('n', '<leader>ps', function()
