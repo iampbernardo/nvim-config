@@ -1,1 +1,2 @@
-/plugin/packer_compiled.lua
+# Compiled Lua sources
+luac.out
